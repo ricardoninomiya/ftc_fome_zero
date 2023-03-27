@@ -107,7 +107,7 @@ df = df.reindex(columns=['Restaurant ID', 'Restaurant Name', 'Country Code', 'Co
 
 st.header('Visão Cidades')
 
-image = Image.open('image_delivery.JPG')
+image = Image.open('image_delivery.jpg')
 st.sidebar.image(image, width=300, caption='Restaurants Delivery')
 
 st.sidebar.markdown('# Fome Zero')
