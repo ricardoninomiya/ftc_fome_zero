@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(page_title='Home', page_icon='')
 
-image = Image.open('image_delivery.JPG')
+image = Image.open('image_delivery.jpg')
 
 st.sidebar.image(image, width=150)
 
