@@ -6,6 +6,7 @@ restaurantes fazem o cadastro dentro da plataforma da Fome Zero, que disponibili
 informações como endereço, tipo de culinária servida, se possui reservas, se faz
 entregas e também uma nota de avaliação dos serviços e produtos do restaurante,
 dentre outras informações.
+https://ricardoninomiya-ftc-fome-zero.streamlit.app/
 
 ## O Desafio
 O CEO também foi recém contratado e precisa entender melhor o negócio
