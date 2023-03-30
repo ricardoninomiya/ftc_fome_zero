@@ -194,10 +194,12 @@ with st.container():
     for index, location_info in df_mapa.iterrows():
         folium.Marker([location_info['Latitude'],
                        location_info['Longitude']],
+                      icon=folium.Icon(color='lightgray', icon='home', prefix='fa'),
                       popup=location_info[['City', 'Restaurant ID']]).add_to(cluster)
 
     folium_static(map_, width=1024, height=600)
     # folium_static(map_)
+
 
 
 
